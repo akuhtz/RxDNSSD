@@ -4,7 +4,7 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.github.druk.rxdnssd"
+        applicationId "org.bidib.com.github.druk.rxdnssd"
         minSdkVersion 16
         targetSdkVersion 31
         versionCode 1
@@ -30,7 +30,7 @@ android {
 }
 
 dependencies {
-    implementation project(':rx2dnssd')
+    implementation project(':rx3dnssd')
 
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'

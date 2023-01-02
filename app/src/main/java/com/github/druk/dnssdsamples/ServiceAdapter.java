@@ -18,17 +18,15 @@ package com.github.druk.dnssdsamples;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Build;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.recyclerview.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.github.druk.rx2dnssd.BonjourService;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.recyclerview.widget.RecyclerView;
+import com.github.druk.rx3dnssd.BonjourService;
 
 import java.util.ArrayList;
 import java.util.List;

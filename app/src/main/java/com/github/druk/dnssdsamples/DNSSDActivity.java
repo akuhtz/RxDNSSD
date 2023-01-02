@@ -9,12 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.github.druk.dnssd.BrowseListener;
 import com.github.druk.dnssd.DNSSD;
 import com.github.druk.dnssd.DNSSDEmbedded;
@@ -24,7 +22,7 @@ import com.github.druk.dnssd.DNSSDService;
 import com.github.druk.dnssd.QueryListener;
 import com.github.druk.dnssd.RegisterListener;
 import com.github.druk.dnssd.ResolveListener;
-import com.github.druk.rx2dnssd.BonjourService;
+import com.github.druk.rx3dnssd.BonjourService;
 
 import java.net.Inet4Address;
 import java.net.Inet6Address;
